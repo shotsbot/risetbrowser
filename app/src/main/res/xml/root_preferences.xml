@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory
+        android:key="general_category"
+        android:title="@string/pref_general">
+        
+        <ListPreference
+            android:key="search_engine"
+            android:title="@string/pref_search_engine"
+            android:summary="Google"
+            android:entries="@array/search_engines"
+            android:entryValues="@array/search_engine_values"
+            android:defaultValue="0" />
+        
+        <Preference
+            android:key="homepage"
+            android:title="@string/pref_homepage"
+            android:defaultValue="https://www.google.com" />
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="privacy_category"
+        android:title="@string/pref_privacy">
+        
+        <SwitchPreferenceCompat
+            android:key="ad_blocking"
+            android:title="@string/pref_ad_blocking"
+            android:defaultValue="true" />
+        
+        <SwitchPreferenceCompat
+            android:key="popup_blocking"
+            android:title="@string/pref_popup_blocking"
+            android:defaultValue="true" />
+        
+        <SwitchPreferenceCompat
+            android:key="do_not_track"
+            android:title="@string/pref_do_not_track"
+            android:defaultValue="true" />
+        
+        <SwitchPreferenceCompat
+            android:key="javascript"
+            android:title="@string/pref_javascript"
+            android:defaultValue="true" />
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Appearance">
+        
+        <SwitchPreferenceCompat
+            android:key="night_mode"
+            android:title="@string/pref_night_mode"
+            android:defaultValue="false" />
+        
+        <SwitchPreferenceCompat
+            android:key="desktop_mode"
+            android:title="@string/pref_desktop_mode"
+            android:defaultValue="false" />
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Storage">
+        
+        <Preference
+            android:key="clear_cache"
+            android:title="@string/menu_clear_cache" />
+        
+        <Preference
+            android:key="clear_history"
+            android:title="@string/menu_clear_history" />
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

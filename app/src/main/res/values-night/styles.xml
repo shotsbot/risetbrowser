@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Night Mode Styles -->
+    
+    <style name="Theme.RiSETBrowser.Night" parent="Theme.AppCompat">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/dark_accent</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/dark_toolbar</item>
+        <item name="android:navigationBarColor">@color/dark_background_primary</item>
+        
+        <!-- Window -->
+        <item name="android:windowBackground">@color/dark_background_primary</item>
+        
+        <!-- Text Appearance -->
+        <item name="android:textColorPrimary">@color/dark_text_primary</item>
+        <item name="android:textColorSecondary">@color/dark_text_secondary</item>
+        
+        <!-- Action Bar -->
+        <item name="actionBarStyle">@style/ActionBarStyle.Dark</item>
+    </style>
+
+    <style name="ActionBarStyle.Dark" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/dark_toolbar</item>
+        <item name="android:elevation">4dp</item>
+        <item name="elevation">4dp</item>
+        <item name="android:textColorPrimary">@color/dark_text_primary</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Androidx Preferences for Settings Fragment -->
+    <style name="PreferenceScreen">
+        <item name="android:layout">@android:layout/preference_activity</item>
+    </style>
+</resources>

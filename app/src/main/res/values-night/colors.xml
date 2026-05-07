@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Night mode specific colors -->
+    
+    <!-- Dark Mode Backgrounds -->
+    <color name="dark_background_primary">#FF121212</color>
+    <color name="dark_background_secondary">#FF1E1E1E</color>
+    <color name="dark_background_tertiary">#FF2C2C2C</color>
+    
+    <!-- Dark Mode Text -->
+    <color name="dark_text_primary">#FFFFFFFF</color>
+    <color name="dark_text_secondary">#FFB0B0B0</color>
+    <color name="dark_text_tertiary">#FF808080</color>
+    
+    <!-- Dark Mode UI -->
+    <color name="dark_toolbar">#FF1F1F1F</color>
+    <color name="dark_card">#FF272727</color>
+    <color name="dark_divider">#FF404040</color>
+    
+    <!-- Accent colors for dark mode -->
+    <color name="dark_accent">#FFBB86FC</color>
+    <color name="dark_primary">#FFBB86FC</color>
+</resources>
